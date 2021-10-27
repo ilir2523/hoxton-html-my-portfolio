@@ -9,10 +9,15 @@ a {
     text-decoration: none;
 }
 header {
-    width: 100vw;
+    position: fixed;
+    left: 2.5vw;
+    top:2.5vh;
+    width: 95vw;
     background-color: #1b4332;
     height: 50px;
     padding-top: 20px;
+
+
 }
 
 ul {
@@ -20,6 +25,9 @@ ul {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     place-items: center;
+    left: 2.5vw;
+    top:2.5vh;
+    width: 95vw;
     
 }
 
@@ -58,10 +66,12 @@ ul {
 
 main {
     display: grid;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(auto-fit, 1fr);
     place-items: left;
-    padding: 150px;
+    padding-top: 150px;
     gap: 50px;
+    padding-left: 2.5vw;
+    width: 95vw;
 }
 
 h2  {
